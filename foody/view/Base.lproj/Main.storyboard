@@ -21,7 +21,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ng1-lO-v6I">
                                 <rect key="frame" x="0.0" y="334" width="390" height="157"/>
                             </imageView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8P3-w5-snk">
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="" placeholder="Rechercher une recette" translatesAutoresizingMaskIntoConstraints="NO" id="8P3-w5-snk">
                                 <rect key="frame" x="0.0" y="58" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>

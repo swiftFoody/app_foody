@@ -21,35 +21,6 @@ let headers = [
 
 class FoodApi{
 
-    //Fonction static pour ne pas a avoir a l'instancier a chaque fois qu'on veux la call
-    /*
-    static func getFood(nameCategorie : String)  -> Promise<[ListRecipe]> //recipes/list (recuperation information complete recette )
-    {
-        var listRecipes : [ListRecipe] = []
-        
-        return Promise { seal in
-
-        
-            AF.request("https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=" + nameCategorie, headers: HTTPHeaders(headers)).response { response in
-            let json = JSON(response.data as Any)
-            let listRecipeJSON = json["results"]//.arrayValue //["results"]
-            //print(listRecipeJSON)
-            
-             for listRecipe in listRecipeJSON {
-                listRecipes.append(ListRecipe(name: listRecipe.1["name"].stringValue,
-                                           id: listRecipe.1["id"].intValue)
-                )
-                 //print(listRecipe.1["name"])
-            }
-            
-            // on retourne le resultat de la promesse
-            //print(json["results"][0]["name"])
-            seal.fulfill(listRecipes)
-            
-            }
-        }
-    }
-    */
     
     //tags/list (recuperation des categories = id/type/name/display_name)
     
